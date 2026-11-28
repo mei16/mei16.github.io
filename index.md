@@ -4,9 +4,9 @@ title: Applied AI Scientist & Engineer
 
 # Applied AI Scientist & Engineer
 
-**Research Focus: Long-term Memory · Context Engineering · Personalized AI**
+**Long-term Memory · Context Engineering · Personalized AI**
 
-My background is in machine learning, information retrieval, search ranking, recommendation, and personalization. I am exploring how these foundations can help AI agents remember, retrieve, organize, and continuously improve their context over time.
+My background is in machine learning, information retrieval, search ranking, recommendation, and personalization. I explore practical AI systems that help people think, learn, communicate, and grow.
 
 [GitHub](https://github.com/mei16) · [X](https://x.com/yunzhongliu)
 
@@ -14,90 +14,30 @@ My background is in machine learning, information retrieval, search ranking, rec
 
 ## My Lifelong Research and Personal Mission
 
-**To build more intelligent AI systems and to use technology to become a better human being.**
+To build intelligent AI systems, augment human capabilities, and cultivate a meaningful life.
 
-I pursue three complementary directions of lifelong research: personal memory, augmented intelligence, and human development. My aim is to explore the world through science, improve life through technology, and cultivate character through practice.
+| Research direction | Purpose |
+| --- | --- |
+| **Personal Memory Lab** | Making AI understand me better. |
+| **Augmented Intelligence Lab** | Becoming a more capable human being. |
+| **Human Development Lab** | Becoming a better human being. |
 
-- **Personal Memory Lab:** Long-term Memory, Context Engineering, and Personalized AI.
-- **Augmented Intelligence Lab:** Context-aware AI for human capability enhancement.
-- **Human Development Lab:** AI, Behavioral Science, and Human Flourishing.
+### Personal Memory Lab
 
-Personal Memory provides the technical foundation, Augmented Intelligence extends human capabilities, and Human Development defines the ultimate purpose. My research is driven by real needs rather than techniques or benchmarks for their own sake.
+Long-term memory, personal context infrastructure, knowledge organization, and practical AI systems.
 
----
+### Augmented Intelligence Lab
 
-## Personal Memory Lab: Long-term Memory and Context Engineering for AI Agents
+AI-assisted communication, learning, productivity, and context-aware wearable technology.
 
-*Research project — in progress; experiments are planned, not yet reported.*
+### Human Development Lab
 
-### Motivation
-
-An AI agent's effectiveness depends not only on its underlying model, but also on the information available to it at the right moment. As agents accumulate experience, selecting relevant memories, resolving outdated information, and adapting context to individual users become important research problems.
-
-My goal is to investigate these problems through reproducible experiments, drawing on information retrieval, ranking, personalization, and feedback-driven optimization.
-
-### Research questions
-
-- **Memory formation:** What should an agent retain, summarize, update, or forget?
-- **Memory retrieval and ranking:** How should relevance, recency, importance, and user intent influence retrieval?
-- **Personalized context engineering:** How can an agent construct useful context under a limited token budget?
-- **Context evolution:** Can reflection and feedback improve memory and context policies over time?
-
-### Application-driven roadmap
-
-1. Build a personal context infrastructure for organizing journals, conversations, knowledge, and autobiographical memories.
-2. Develop useful applications for writing, learning, reflection, and personal productivity.
-3. Compare context organization, retrieval, compression, and direct long-context approaches on real tasks.
-4. Select existing models and tools based on quality, latency, privacy, and cost rather than training foundation models.
-
-Evaluate approaches against practical outcomes, using public or synthetic examples for reproducible public demonstrations where appropriate.
-
-### Planned outputs
-
-I intend to share reproducible code, experimental findings, technical notes, and research questions as the project develops. Public experiments will use public or synthetic data, independent of proprietary systems and private user records.
-
-The central question is: **How can AI agents use experience to construct better context for their next task?**
+Behavioral science, physical and mental well-being, emotional regulation, character development, and turning knowledge into action.
 
 ---
 
-## Augmented Intelligence Lab: Context-aware AI for Human Capability Enhancement
+**Technology serves capability. Capability serves purpose.**
 
-*Exploratory project.*
-
-Explore how AI can extend human capabilities while preserving human agency. Initial applications include real-time communication assistance, language learning, personalized learning, and productivity. Investigate the integration of existing models, personal context, smart glasses, earbuds, and other wearable devices, with attention to latency, privacy, consent, and usability.
-
----
-
-## Human Development Lab: AI, Behavioral Science, and Human Flourishing
-
-*Research and personal practice — exploratory.*
-
-How can AI help humans translate knowledge into action and develop better habits, emotional regulation, and character?
-
-### Areas of exploration
-
-- Physical fitness and mental well-being
-- Emotional regulation and character development
-- Habit formation and reflective practice
-- Meaning and purpose
-- Bridging the knowing–doing gap
-
-### Intellectual foundations
-
-My interests draw on Benjamin Franklin's practice of cultivating virtues, Viktor Frankl's *Man's Search for Meaning*, Wang Yangming's unity of knowledge and action, Marshall Rosenberg's *Nonviolent Communication*, Stephen Covey's *The 7 Habits of Highly Effective People*, Zhou Ling's writings on metacognition, and Mihaly Csikszentmihalyi's work on flow.
-
-Rather than simply accumulating knowledge, I want to explore how daily practice, feedback, reflection, and personalized AI can help translate ideas into action.
-
-### Connecting the two labs
-
-Personal Memory Lab investigates how agents can remember and construct better context. Human Development Lab explores how those capabilities can support meaningful human goals through personalized reminders, reflection, and habit formation.
-
-I intend to begin with personal practice, respecting privacy, autonomy, and scientific evidence. Personal observations are not evidence of general effectiveness; broader claims require appropriate evaluation.
-
-### My aspiration
-
-**A strong body, a peaceful mind, a curious intellect, and a good character.**
+A strong body, a peaceful mind, a curious intellect, and a good character.
 
 强健的体魄、平静的心灵、充满好奇的头脑、良好的品格。
-
-用科学探索世界，用技术改善生活，用实践完善自己。
