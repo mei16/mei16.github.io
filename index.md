@@ -16,28 +16,41 @@ My background is in machine learning, information retrieval, search ranking, rec
 
 To build intelligent AI systems, augment human capabilities, and cultivate a meaningful life.
 
-| Research direction | Purpose |
-| --- | --- |
-| **Personal Memory Lab** | Making AI understand me better. |
-| **Augmented Intelligence Lab** | Becoming a more capable human being. |
-| **Human Development Lab** | Becoming a better human being. |
+用科学探索世界，用技术改善生活，用实践完善自己。
 
-### Personal Memory Lab
+### 01 · Personal Memory Lab
 
-Long-term memory, personal context infrastructure, knowledge organization, and practical AI systems.
+**Making AI understand me better.**  
+让 AI 更好地理解我。
 
-### Augmented Intelligence Lab
+Long-term Memory · Personal Context Infrastructure · Knowledge Management · Model Selection · Cost Optimization
 
-AI-assisted communication, learning, productivity, and context-aware wearable technology.
+长期记忆 · 个人上下文基础设施 · 知识管理 · 模型选择 · 成本优化
 
-### Human Development Lab
+### 02 · Augmented Intelligence Lab
 
-Behavioral science, physical and mental well-being, emotional regulation, character development, and turning knowledge into action.
+**Becoming a more capable human being.**  
+让自己成为更有能力的人。
+
+Real-time Communication · English Language Assistance · Smart Glasses & Wearables · Cognitive Augmentation · Productivity
+
+实时沟通 · 英语辅助 · 智能眼镜与可穿戴设备 · 认知增强 · 工作效率
+
+### 03 · Human Development Lab
+
+**Becoming a better human being.**  
+让自己成为一个更好的人。
+
+Physical Health · Peace of Mind · Character Development · Parent–Child Relationships · Unity of Knowledge and Action · Meaning in Life
+
+身体健康 · 心灵平静 · 品格修养 · 亲子关系 · 知行合一 · 生命意义
 
 ---
 
 **Technology serves capability. Capability serves purpose.**
 
-A strong body, a peaceful mind, a curious intellect, and a good character.
+技术服务于能力，能力服务于人生目标。
+
+**A strong body, a peaceful mind, a curious intellect, and a good character.**
 
 强健的体魄、平静的心灵、充满好奇的头脑、良好的品格。
