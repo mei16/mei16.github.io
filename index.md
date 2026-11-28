@@ -1,39 +1,45 @@
 ---
-title: How to Use Langfuse for a Personal AI Agent
+title: Applied AI Scientist & Engineer
 ---
 
-# How to Use Langfuse for a Personal AI Agent
+# Applied AI Scientist & Engineer
 
-*实验样稿，尚未运行。*
+**Research Focus: Long-term Memory · Context Engineering · Personalized AI**
 
-我一直想知道自己一天的时间都花到哪里去了。以前我用 spreadsheet 记几点到几点在做什么，记了几天就坚持不下去了。最近我在想，如果晚上只需要对 AI 说一分钟，让它帮我整理成时间线，这件事会不会容易一点？
+My background is in machine learning, information retrieval, search ranking, recommendation, and personalization. I am exploring how these foundations can help AI agents remember, retrieve, organize, and continuously improve their context over time.
 
-> 上午看了几条 AI 视频，具体看了多久不记得。下午两点到两点二十洗了车垫。
+[GitHub](https://github.com/mei16) · [X](https://x.com/yunzhongliu)
 
-洗车垫用了 20 分钟，这个可以算出来。看视频用了多久，我没有说，所以应该留空。如果 AI 填了「大约一小时」，等到周日做统计时，我就分不清哪些时间是我记下来的，哪些是模型猜的。
+---
 
-## 先用五条记录测试一个问题
+## Personal Memory Lab: Long-term Memory and Context Engineering for AI Agents
 
-在 Langfuse 里建一个 dataset，每条输入用 `note` 存放一段口述。
+*Research project — in progress; experiments are planned, not yet reported.*
 
-| 口述输入 | 预期结果 |
-| --- | --- |
-| 上午看了几条 AI 视频，多久不记得。 | 记下活动，时长留空。 |
-| 下午两点到两点二十洗车垫。 | 记录起止时间，算出 20 分钟。 |
-| 晚上练了大概十分钟英语。 | 保留「约 10 分钟」，起止时间留空。 |
-| 跑完步回来读了会儿书。 | 分成两条活动，时长都留空。 |
-| 洗车用了半小时。哦，想起来了，应该是二十分钟。 | 采用更正后的 20 分钟。 |
+### Motivation
 
-## 在 Langfuse 里比较两个 prompt 版本
+An AI agent's effectiveness depends not only on its underlying model, but also on the information available to it at the right moment. As agents accumulate experience, selecting relevant memories, resolving outdated information, and adapting context to individual users become important research problems.
 
-1. 在 **Prompts** 里创建一个 chat prompt，把用户消息设为 `{{note}}`。两个版本都要求输出活动、起止时间和时长。
-2. 给 v2 加一条规则：「只使用口述中明确给出的时间，或根据明确的起止时间计算时长。缺失字段填 `null`，保留用户自己给出的估计，并采用最后一次更正。」
-3. 配置好项目的模型连接，从 **Datasets → Run experiment → via User Interface** 分别跑 v1 和 v2。两次使用同一个模型和同一批样例。
+My goal is to investigate these problems through reproducible experiments, drawing on information retrieval, ranking, personalization, and feedback-driven optimization.
 
-跑完后逐条核对：该留空的有没有瞎填，该算出来的有没有漏算，更正后有没有保留旧值。[Langfuse 的界面实验文档](https://langfuse.com/docs/evaluation/experiments/experiments-via-ui)
+### Research questions
 
-## 跑完以后，我想记下什么
+- **Memory formation:** What should an agent retain, summarize, update, or forget?
+- **Memory retrieval and ranking:** How should relevance, recency, importance, and user intent influence retrieval?
+- **Personalized context engineering:** How can an agent construct useful context under a limited token budget?
+- **Context evolution:** Can reflection and feedback improve memory and context policies over time?
 
-如果 v2 不再乱填时间，却把「大概十分钟」也丢掉，那我就需要写清楚一条规则：用户自己的估计可以保留，模型只负责整理或计算已有信息。
+### Experimental roadmap
 
-这五条样例可以一直留在 dataset 里。以后换模型、改 prompt，或者给 agent 加上每周总结，都能重新跑一次，看看哪些行为变好了，哪些退回去了。
+1. Establish baselines using public or synthetic multi-session conversation datasets.
+2. Compare lexical, dense, and hybrid retrieval with different ranking strategies.
+3. Evaluate structured memory, temporal updates, and context selection under controlled token budgets.
+4. Explore feedback-driven optimization inspired by GEPA (Reflective Prompt Evolution) and ACE (Agentic Context Engineering).
+
+Evaluation will consider retrieval quality, downstream task accuracy, temporal consistency, personalization, latency, and token cost. Comparisons will use consistent models and held-out test cases where possible.
+
+### Planned outputs
+
+I intend to share reproducible code, experimental findings, technical notes, and research questions as the project develops. Public experiments will use public or synthetic data, independent of proprietary systems and private user records.
+
+The central question is: **How can AI agents use experience to construct better context for their next task?**
