@@ -16,12 +16,13 @@ My background is in machine learning, information retrieval, search ranking, rec
 
 **To build more intelligent AI systems and to use technology to become a better human being.**
 
-I pursue two complementary directions of lifelong research: artificial intelligence and human development. My aim is to explore the world through science, improve life through technology, and cultivate character through practice.
+I pursue three complementary directions of lifelong research: personal memory, augmented intelligence, and human development. My aim is to explore the world through science, improve life through technology, and cultivate character through practice.
 
 - **Personal Memory Lab:** Long-term Memory, Context Engineering, and Personalized AI.
+- **Augmented Intelligence Lab:** Context-aware AI for human capability enhancement.
 - **Human Development Lab:** AI, Behavioral Science, and Human Flourishing.
 
-The first investigates how AI can better understand and assist people. The second explores how AI can help people develop themselves.
+Personal Memory provides the technical foundation, Augmented Intelligence extends human capabilities, and Human Development defines the ultimate purpose. My research is driven by real needs rather than techniques or benchmarks for their own sake.
 
 ---
 
@@ -42,20 +43,28 @@ My goal is to investigate these problems through reproducible experiments, drawi
 - **Personalized context engineering:** How can an agent construct useful context under a limited token budget?
 - **Context evolution:** Can reflection and feedback improve memory and context policies over time?
 
-### Experimental roadmap
+### Application-driven roadmap
 
-1. Establish baselines using public or synthetic multi-session conversation datasets.
-2. Compare lexical, dense, and hybrid retrieval with different ranking strategies.
-3. Evaluate structured memory, temporal updates, and context selection under controlled token budgets.
-4. Explore feedback-driven optimization inspired by GEPA (Reflective Prompt Evolution) and ACE (Agentic Context Engineering).
+1. Build a personal context infrastructure for organizing journals, conversations, knowledge, and autobiographical memories.
+2. Develop useful applications for writing, learning, reflection, and personal productivity.
+3. Compare context organization, retrieval, compression, and direct long-context approaches on real tasks.
+4. Select existing models and tools based on quality, latency, privacy, and cost rather than training foundation models.
 
-Evaluation will consider retrieval quality, downstream task accuracy, temporal consistency, personalization, latency, and token cost. Comparisons will use consistent models and held-out test cases where possible.
+Evaluate approaches against practical outcomes, using public or synthetic examples for reproducible public demonstrations where appropriate.
 
 ### Planned outputs
 
 I intend to share reproducible code, experimental findings, technical notes, and research questions as the project develops. Public experiments will use public or synthetic data, independent of proprietary systems and private user records.
 
 The central question is: **How can AI agents use experience to construct better context for their next task?**
+
+---
+
+## Augmented Intelligence Lab: Context-aware AI for Human Capability Enhancement
+
+*Exploratory project.*
+
+Explore how AI can extend human capabilities while preserving human agency. Initial applications include real-time communication assistance, language learning, personalized learning, and productivity. Investigate the integration of existing models, personal context, smart glasses, earbuds, and other wearable devices, with attention to latency, privacy, consent, and usability.
 
 ---
 
